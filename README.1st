@@ -1,7 +1,7 @@
 disqus-comment-sync
 ~~~~~~~~~~~~~~~~~~~
 
-Synchronize Disqus comments to a local database via their API.  To be run daily, fetching the comments and threads since it was last run.
+Synchronize Disqus comments to a local database via their API.  To be run daily, fetches the comments and threads since it was last run.
 
 
 Requirements
