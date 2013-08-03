@@ -39,7 +39,7 @@ Installation
     `isApproved` tinyint(4) NOT NULL DEFAULT '1',
     `author_name` varchar(255) NOT NULL,
     `author_url` varchar(255) NOT NULL,
-    `avatar_url` varchar(255) NOT NULL,
+    `avatar_url` varchar(255) DEFAULT NULL,
     `author_email` varchar(255) NOT NULL,
     `author_id` varchar(255) DEFAULT NULL,
     `author_our_id` int(10) unsigned DEFAULT NULL,
